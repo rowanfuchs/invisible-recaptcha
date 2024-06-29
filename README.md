@@ -1,9 +1,13 @@
-Invisible reCAPTCHA (Forked 28/06/2024,)
+Laravel Invisible reCAPTCHA v3
 ==========
 [![Packagist PHP Version](https://img.shields.io/packagist/php-v/f9webltd/invisible-recaptcha?style=flat-square)](https://packagist.org/packages/f9webltd/invisible-recaptcha)
 [![Packagist Version](https://img.shields.io/packagist/v/f9webltd/invisible-recaptcha?style=flat-square)](https://packagist.org/packages/f9webltd/invisible-recaptcha)
 
 ![invisible_recaptcha_demo](http://i.imgur.com/1dZ9XKn.png)
+
+## Background
+
+28/06/2024 - the original repository has not been updated for over 2 years and lacks Laravel 11 support and a [critical PR](https://github.com/albertcht/invisible-recaptcha/pull/173) relating to patch the recent polyfillio[dot]io attack. This fork includes both fixes and drops support for old Laravel and PHP versions. I plan to tidy up the forked repository, add GitHub workflows and set a different namespace.
 
 ## Support
 
