@@ -19,7 +19,7 @@ In reCAPTCHA v2, users need to click the button: "I'm not a robot" to prove they
 ## Installation
 
 ```
-composer require albertcht/invisible-recaptcha
+composer require f9webltd/invisible-recaptcha
 ```
 
 ## Laravel 5
