@@ -1,28 +1,23 @@
-Invisible reCAPTCHA
+Laravel Invisible reCAPTCHA v3
 ==========
-![php-badge](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg)
-[![packagist-badge](https://img.shields.io/packagist/v/albertcht/invisible-recaptcha.svg)](https://packagist.org/packages/albertcht/invisible-recaptcha)
-[![Total Downloads](https://poser.pugx.org/albertcht/invisible-recaptcha/downloads)](https://packagist.org/packages/albertcht/invisible-recaptcha)
-[![travis-badge](https://api.travis-ci.org/albertcht/invisible-recaptcha.svg?branch=master)](https://travis-ci.org/albertcht/invisible-recaptcha)
+[![Packagist PHP Version](https://img.shields.io/packagist/php-v/f9webltd/invisible-recaptcha?style=flat-square)](https://packagist.org/packages/f9webltd/invisible-recaptcha)
+[![Packagist Version](https://img.shields.io/packagist/v/f9webltd/invisible-recaptcha?style=flat-square)](https://packagist.org/packages/f9webltd/invisible-recaptcha)
 
 ![invisible_recaptcha_demo](http://i.imgur.com/1dZ9XKn.png)
 
-## Why Invisible reCAPTCHA?
+## Background
 
-Invisible reCAPTCHA is an improved version of reCAPTCHA v2(no captcha).
-In reCAPTCHA v2, users need to click the button: "I'm not a robot" to prove they are human. In invisible reCAPTCHA, there will be not embed a captcha box for users to click. It's totally invisible! Only the badge will show on the buttom of the page to hint users that your website is using this technology. (The badge could be hidden, but not suggested.)
+28/06/2024 - the [original repository](https://github.com/albertcht/invisible-recaptcha) has not been updated for over 2 years and lacks Laravel 11 support and a [critical PR](https://github.com/albertcht/invisible-recaptcha/pull/173) relating to patch the recent polyfillio[dot]io attack. This fork includes both fixes and drops support for old Laravel and PHP versions. I plan to tidy up the forked repository, add GitHub workflows and set a different namespace.
 
-## Notice
+## Support
 
-* The master branch doesn't support multi captchas feature, please use `multi-forms` branch if you need it. (**Most of the time you are misusing recaptcha when you try to put multiple captchas in one page.**)
+Laravel 10 / 11, PHP `*8.0`.
 
 ## Installation
 
 ```
-composer require albertcht/invisible-recaptcha
+composer require f9webltd/invisible-recaptcha
 ```
-
-## Laravel 5
 
 ### Setup
 
@@ -31,8 +26,6 @@ Add ServiceProvider to the providers array in `app/config/app.php`.
 ```
 AlbertCht\InvisibleReCaptcha\InvisibleReCaptchaServiceProvider::class,
 ```
-
-> It also supports package discovery for Laravel 5.5.
 
 ### Configuration
 Before you set your config, remember to choose `invisible reCAPTCHA` while applying for keys.
