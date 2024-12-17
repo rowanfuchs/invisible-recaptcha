@@ -1,5 +1,5 @@
 {
-    "name": "albertcht/invisible-recaptcha",
+    "name": "rowanfuchs/invisible-recaptcha",
     "version": "1.0.1",
     "description": "Invisible reCAPTCHA For Laravel.",
     "keywords": [
@@ -17,6 +17,10 @@
         {
             "name": "Albert Chen",
             "homepage": "https://www.albert-chen.com"
+        },
+        {
+            "name": "Rowan Fuchs",
+            "homepage": "https://rowanfuchs.nl"
         }
     ],
     "require": {
