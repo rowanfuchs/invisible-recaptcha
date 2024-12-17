@@ -1,5 +1,6 @@
 {
     "name": "albertcht/invisible-recaptcha",
+    "version": "1.0.1",
     "description": "Invisible reCAPTCHA For Laravel.",
     "keywords": [
         "recaptcha",
